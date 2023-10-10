@@ -1,0 +1,123 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "chapter2",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-chapter2-Debug-d06527bb139644161c1c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "chapter2"
+				},
+				{
+					"build" : "chapter2/02-1",
+					"jsonFile" : "directory-chapter2.02-1-Debug-3b418e78a86712b8f104.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "chapter2/02-1",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "c++_basic"
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "chapter2",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "chapter02_1",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "chapter02_1::@35271c472015b8c0819d",
+					"jsonFile" : "target-chapter02_1-Debug-66e9acb5541145171294.json",
+					"name" : "chapter02_1",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "chapter02_3::@35271c472015b8c0819d",
+					"jsonFile" : "target-chapter02_3-Debug-92aecc4f628ade5f6bda.json",
+					"name" : "chapter02_3",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/ehdqk/OneDrive/\ubc14\ud0d5 \ud654\uba74/c++_basic/build",
+		"source" : "C:/Users/ehdqk/OneDrive/\ubc14\ud0d5 \ud654\uba74/c++_basic"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}
