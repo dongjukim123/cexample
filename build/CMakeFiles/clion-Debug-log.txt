@@ -1,4 +1,4 @@
 "C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe" -G Ninja -S "C:\Users\ehdqk\OneDrive\바탕 화면\c++_basic" -B "C:\Users\ehdqk\OneDrive\바탕 화면\c++_basic\build"
--- Configuring done (0.7s)
--- Generating done (0.0s)
+-- Configuring done (0.9s)
+-- Generating done (0.2s)
 -- Build files have been written to: C:/Users/ehdqk/OneDrive/바탕 화면/c++_basic/build

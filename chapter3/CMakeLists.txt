@@ -1,9 +1,8 @@
-cmake_minimum_required(VERSION 3.1)
+cmake_minimum_required(VERSION 3.10)
 
-project(chapter3)
+PROJECT(chapter3)
 
-add_executable(chapter3 main.cpp)
+add_subdirectory(03-1)
+add_subdirectory(03-2)
+#add_subdirectory(03-3)
 
-add_library(Namesp namesp.cpp)
-
-target_link_libraries(${PROJECT_NAME} Namesp)

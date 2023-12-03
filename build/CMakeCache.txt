@@ -249,22 +249,67 @@ c++_basic_IS_TOP_LEVEL:STATIC=ON
 c++_basic_SOURCE_DIR:STATIC=C:/Users/ehdqk/OneDrive/바탕 화면/c++_basic
 
 //Value Computed by CMake
-chapter02_1_BINARY_DIR:STATIC=C:/Users/ehdqk/OneDrive/바탕 화면/c++_basic/build/chapter2/02-1
+chapter02_2_BINARY_DIR:STATIC=C:/Users/ehdqk/OneDrive/바탕 화면/c++_basic/build/chapter2/02-2
 
 //Value Computed by CMake
-chapter02_1_IS_TOP_LEVEL:STATIC=OFF
+chapter02_2_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-chapter02_1_SOURCE_DIR:STATIC=C:/Users/ehdqk/OneDrive/바탕 화면/c++_basic/chapter2/02-1
+chapter02_2_SOURCE_DIR:STATIC=C:/Users/ehdqk/OneDrive/바탕 화면/c++_basic/chapter2/02-2
 
 //Value Computed by CMake
-chapter1_BINARY_DIR:STATIC=C:/Users/ehdqk/OneDrive/바탕 화면/c++_basic/build/chapter1
+chapter02_3_BINARY_DIR:STATIC=C:/Users/ehdqk/OneDrive/바탕 화면/c++_basic/build/chapter2/02-3
 
 //Value Computed by CMake
-chapter1_IS_TOP_LEVEL:STATIC=OFF
+chapter02_3_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-chapter1_SOURCE_DIR:STATIC=C:/Users/ehdqk/OneDrive/바탕 화면/c++_basic/chapter1
+chapter02_3_SOURCE_DIR:STATIC=C:/Users/ehdqk/OneDrive/바탕 화면/c++_basic/chapter2/02-3
+
+//Value Computed by CMake
+chapter03_1_BINARY_DIR:STATIC=C:/Users/ehdqk/OneDrive/바탕 화면/c++_basic/build/chapter3/03-1
+
+//Value Computed by CMake
+chapter03_1_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+chapter03_1_SOURCE_DIR:STATIC=C:/Users/ehdqk/OneDrive/바탕 화면/c++_basic/chapter3/03-1
+
+//Value Computed by CMake
+chapter03_2_BINARY_DIR:STATIC=C:/Users/ehdqk/OneDrive/바탕 화면/c++_basic/build/chapter3/03-2
+
+//Value Computed by CMake
+chapter03_2_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+chapter03_2_SOURCE_DIR:STATIC=C:/Users/ehdqk/OneDrive/바탕 화면/c++_basic/chapter3/03-2
+
+//Value Computed by CMake
+chapter04_1_BINARY_DIR:STATIC=C:/Users/ehdqk/OneDrive/바탕 화면/c++_basic/build/chapter4/04-1
+
+//Value Computed by CMake
+chapter04_1_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+chapter04_1_SOURCE_DIR:STATIC=C:/Users/ehdqk/OneDrive/바탕 화면/c++_basic/chapter4/04-1
+
+//Value Computed by CMake
+chapter04_2_BINARY_DIR:STATIC=C:/Users/ehdqk/OneDrive/바탕 화면/c++_basic/build/chapter4/04-2
+
+//Value Computed by CMake
+chapter04_2_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+chapter04_2_SOURCE_DIR:STATIC=C:/Users/ehdqk/OneDrive/바탕 화면/c++_basic/chapter4/04-2
+
+//Value Computed by CMake
+chapter10_BINARY_DIR:STATIC=C:/Users/ehdqk/OneDrive/바탕 화면/c++_basic/build/chapter1
+
+//Value Computed by CMake
+chapter10_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+chapter10_SOURCE_DIR:STATIC=C:/Users/ehdqk/OneDrive/바탕 화면/c++_basic/chapter1
 
 //Value Computed by CMake
 chapter2_BINARY_DIR:STATIC=C:/Users/ehdqk/OneDrive/바탕 화면/c++_basic/build/chapter2
@@ -274,6 +319,24 @@ chapter2_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
 chapter2_SOURCE_DIR:STATIC=C:/Users/ehdqk/OneDrive/바탕 화면/c++_basic/chapter2
+
+//Value Computed by CMake
+chapter3_BINARY_DIR:STATIC=C:/Users/ehdqk/OneDrive/바탕 화면/c++_basic/build/chapter3
+
+//Value Computed by CMake
+chapter3_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+chapter3_SOURCE_DIR:STATIC=C:/Users/ehdqk/OneDrive/바탕 화면/c++_basic/chapter3
+
+//Value Computed by CMake
+chapter4_BINARY_DIR:STATIC=C:/Users/ehdqk/OneDrive/바탕 화면/c++_basic/build/chapter4
+
+//Value Computed by CMake
+chapter4_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+chapter4_SOURCE_DIR:STATIC=C:/Users/ehdqk/OneDrive/바탕 화면/c++_basic/chapter4
 
 
 ########################
@@ -378,7 +441,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=3
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=12
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

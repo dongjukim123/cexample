@@ -68,6 +68,98 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # C:/Users/ehdqk/OneDrive/πŸ≈¡ »≠∏È/c++_basic/CMakeLists.txt
 # =============================================================================
 
+# =============================================================================
+# Object build statements for EXECUTABLE target chapter10
+
+
+#############################################
+# Order-only phony target for chapter10
+
+build cmake_object_order_depends_target_chapter10: phony || cmake_object_order_depends_target_Namesp2
+
+build chapter1/CMakeFiles/chapter10.dir/main.cpp.obj: CXX_COMPILER__chapter10_unscanned_Debug C$:/Users/ehdqk/OneDrive/πŸ≈¡$ »≠∏È/c++_basic/chapter1/main.cpp || cmake_object_order_depends_target_chapter10
+  DEP_FILE = chapter1\CMakeFiles\chapter10.dir\main.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = chapter1\CMakeFiles\chapter10.dir
+  OBJECT_FILE_DIR = chapter1\CMakeFiles\chapter10.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target chapter10
+
+
+#############################################
+# Link the executable chapter1\chapter10.exe
+
+build chapter1/chapter10.exe: CXX_EXECUTABLE_LINKER__chapter10_Debug chapter1/CMakeFiles/chapter10.dir/main.cpp.obj | chapter1/libNamesp2.a || chapter1/libNamesp2.a
+  FLAGS = -g
+  LINK_LIBRARIES = chapter1/libNamesp2.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = chapter1\CMakeFiles\chapter10.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = chapter1\chapter10.exe
+  TARGET_IMPLIB = chapter1\libchapter10.dll.a
+  TARGET_PDB = chapter10.exe.dbg
+
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target Namesp2
+
+
+#############################################
+# Order-only phony target for Namesp2
+
+build cmake_object_order_depends_target_Namesp2: phony || chapter1/CMakeFiles/Namesp2.dir
+
+build chapter1/CMakeFiles/Namesp2.dir/Namesp2.cpp.obj: CXX_COMPILER__Namesp2_unscanned_Debug C$:/Users/ehdqk/OneDrive/πŸ≈¡$ »≠∏È/c++_basic/chapter1/Namesp2.cpp || cmake_object_order_depends_target_Namesp2
+  DEP_FILE = chapter1\CMakeFiles\Namesp2.dir\Namesp2.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = chapter1\CMakeFiles\Namesp2.dir
+  OBJECT_FILE_DIR = chapter1\CMakeFiles\Namesp2.dir
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target Namesp2
+
+
+#############################################
+# Link the static library chapter1\libNamesp2.a
+
+build chapter1/libNamesp2.a: CXX_STATIC_LIBRARY_LINKER__Namesp2_Debug chapter1/CMakeFiles/Namesp2.dir/Namesp2.cpp.obj
+  LANGUAGE_COMPILE_FLAGS = -g
+  OBJECT_DIR = chapter1\CMakeFiles\Namesp2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = chapter1\libNamesp2.a
+  TARGET_PDB = Namesp2.a.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build chapter1/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D "C:\Users\ehdqk\OneDrive\πŸ≈¡ »≠∏È\c++_basic\build\chapter1" && "C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build chapter1/edit_cache: phony chapter1/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build chapter1/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D "C:\Users\ehdqk\OneDrive\πŸ≈¡ »≠∏È\c++_basic\build\chapter1" && "C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\ehdqk\OneDrive\πŸ≈¡ »≠∏È\c++_basic" -B"C:\Users\ehdqk\OneDrive\πŸ≈¡ »≠∏È\c++_basic\build""
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build chapter1/rebuild_cache: phony chapter1/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Users/ehdqk/OneDrive/πŸ≈¡ »≠∏È/c++_basic/CMakeLists.txt
+# =============================================================================
+
 
 #############################################
 # Utility command for edit_cache
@@ -97,70 +189,70 @@ build chapter2/rebuild_cache: phony chapter2/CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 # =============================================================================
-# Object build statements for EXECUTABLE target chapter02_1
+# Object build statements for EXECUTABLE target 02_1
 
 
 #############################################
-# Order-only phony target for chapter02_1
+# Order-only phony target for 02_1
 
-build cmake_object_order_depends_target_chapter02_1: phony || chapter2/02-1/CMakeFiles/chapter02_1.dir
+build cmake_object_order_depends_target_02_1: phony || chapter2/02-1/CMakeFiles/02_1.dir
 
-build chapter2/02-1/CMakeFiles/chapter02_1.dir/pro1.cpp.obj: CXX_COMPILER__chapter02_1_unscanned_Debug C$:/Users/ehdqk/OneDrive/πŸ≈¡$ »≠∏È/c++_basic/chapter2/02-1/pro1.cpp || cmake_object_order_depends_target_chapter02_1
-  DEP_FILE = chapter2\02-1\CMakeFiles\chapter02_1.dir\pro1.cpp.obj.d
+build chapter2/02-1/CMakeFiles/02_1.dir/pro1.cpp.obj: CXX_COMPILER__02_1_unscanned_Debug C$:/Users/ehdqk/OneDrive/πŸ≈¡$ »≠∏È/c++_basic/chapter2/02-1/pro1.cpp || cmake_object_order_depends_target_02_1
+  DEP_FILE = chapter2\02-1\CMakeFiles\02_1.dir\pro1.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = chapter2\02-1\CMakeFiles\chapter02_1.dir
-  OBJECT_FILE_DIR = chapter2\02-1\CMakeFiles\chapter02_1.dir
+  OBJECT_DIR = chapter2\02-1\CMakeFiles\02_1.dir
+  OBJECT_FILE_DIR = chapter2\02-1\CMakeFiles\02_1.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target chapter02_1
+# Link build statements for EXECUTABLE target 02_1
 
 
 #############################################
-# Link the executable chapter2\02-1\chapter02_1.exe
+# Link the executable chapter2\02-1\02_1.exe
 
-build chapter2/02-1/chapter02_1.exe: CXX_EXECUTABLE_LINKER__chapter02_1_Debug chapter2/02-1/CMakeFiles/chapter02_1.dir/pro1.cpp.obj
+build chapter2/02-1/02_1.exe: CXX_EXECUTABLE_LINKER__02_1_Debug chapter2/02-1/CMakeFiles/02_1.dir/pro1.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = chapter2\02-1\CMakeFiles\chapter02_1.dir
+  OBJECT_DIR = chapter2\02-1\CMakeFiles\02_1.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = chapter2\02-1\chapter02_1.exe
-  TARGET_IMPLIB = chapter2\02-1\libchapter02_1.dll.a
-  TARGET_PDB = chapter02_1.exe.dbg
+  TARGET_FILE = chapter2\02-1\02_1.exe
+  TARGET_IMPLIB = chapter2\02-1\lib02_1.dll.a
+  TARGET_PDB = 02_1.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target chapter02_3
+# Object build statements for EXECUTABLE target 02-1.
 
 
 #############################################
-# Order-only phony target for chapter02_3
+# Order-only phony target for 02-1.
 
-build cmake_object_order_depends_target_chapter02_3: phony || chapter2/02-1/CMakeFiles/chapter02_3.dir
+build cmake_object_order_depends_target_02-1.: phony || chapter2/02-1/CMakeFiles/02-1..dir
 
-build chapter2/02-1/CMakeFiles/chapter02_3.dir/pro3.cpp.obj: CXX_COMPILER__chapter02_3_unscanned_Debug C$:/Users/ehdqk/OneDrive/πŸ≈¡$ »≠∏È/c++_basic/chapter2/02-1/pro3.cpp || cmake_object_order_depends_target_chapter02_3
-  DEP_FILE = chapter2\02-1\CMakeFiles\chapter02_3.dir\pro3.cpp.obj.d
+build chapter2/02-1/CMakeFiles/02-1..dir/pro3.cpp.obj: CXX_COMPILER__02-1.2e_unscanned_Debug C$:/Users/ehdqk/OneDrive/πŸ≈¡$ »≠∏È/c++_basic/chapter2/02-1/pro3.cpp || cmake_object_order_depends_target_02-1.
+  DEP_FILE = chapter2\02-1\CMakeFiles\02-1..dir\pro3.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = chapter2\02-1\CMakeFiles\chapter02_3.dir
-  OBJECT_FILE_DIR = chapter2\02-1\CMakeFiles\chapter02_3.dir
+  OBJECT_DIR = chapter2\02-1\CMakeFiles\02-1..dir
+  OBJECT_FILE_DIR = chapter2\02-1\CMakeFiles\02-1..dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target chapter02_3
+# Link build statements for EXECUTABLE target 02-1.
 
 
 #############################################
-# Link the executable chapter2\02-1\chapter02_3.exe
+# Link the executable chapter2\02-1\02-1..exe
 
-build chapter2/02-1/chapter02_3.exe: CXX_EXECUTABLE_LINKER__chapter02_3_Debug chapter2/02-1/CMakeFiles/chapter02_3.dir/pro3.cpp.obj
+build chapter2/02-1/02-1..exe: CXX_EXECUTABLE_LINKER__02-1.2e_Debug chapter2/02-1/CMakeFiles/02-1..dir/pro3.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = chapter2\02-1\CMakeFiles\chapter02_3.dir
+  OBJECT_DIR = chapter2\02-1\CMakeFiles\02-1..dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = chapter2\02-1\chapter02_3.exe
-  TARGET_IMPLIB = chapter2\02-1\libchapter02_3.dll.a
-  TARGET_PDB = chapter02_3.exe.dbg
+  TARGET_FILE = chapter2\02-1\02-1..exe
+  TARGET_IMPLIB = chapter2\02-1\lib02-1..dll.a
+  TARGET_PDB = 02-1..exe.dbg
 
 
 #############################################
@@ -186,15 +278,504 @@ build chapter2/02-1/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 build chapter2/02-1/rebuild_cache: phony chapter2/02-1/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Users/ehdqk/OneDrive/πŸ≈¡ »≠∏È/c++_basic/chapter2/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 02_2
+
+
+#############################################
+# Order-only phony target for 02_2
+
+build cmake_object_order_depends_target_02_2: phony || chapter2/02-2/CMakeFiles/02_2.dir
+
+build chapter2/02-2/CMakeFiles/02_2.dir/02-2.cpp.obj: CXX_COMPILER__02_2_unscanned_Debug C$:/Users/ehdqk/OneDrive/πŸ≈¡$ »≠∏È/c++_basic/chapter2/02-2/02-2.cpp || cmake_object_order_depends_target_02_2
+  DEP_FILE = chapter2\02-2\CMakeFiles\02_2.dir\02-2.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = chapter2\02-2\CMakeFiles\02_2.dir
+  OBJECT_FILE_DIR = chapter2\02-2\CMakeFiles\02_2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 02_2
+
+
+#############################################
+# Link the executable chapter2\02-2\02_2.exe
+
+build chapter2/02-2/02_2.exe: CXX_EXECUTABLE_LINKER__02_2_Debug chapter2/02-2/CMakeFiles/02_2.dir/02-2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = chapter2\02-2\CMakeFiles\02_2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = chapter2\02-2\02_2.exe
+  TARGET_IMPLIB = chapter2\02-2\lib02_2.dll.a
+  TARGET_PDB = 02_2.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build chapter2/02-2/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D "C:\Users\ehdqk\OneDrive\πŸ≈¡ »≠∏È\c++_basic\build\chapter2\02-2" && "C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build chapter2/02-2/edit_cache: phony chapter2/02-2/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build chapter2/02-2/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D "C:\Users\ehdqk\OneDrive\πŸ≈¡ »≠∏È\c++_basic\build\chapter2\02-2" && "C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\ehdqk\OneDrive\πŸ≈¡ »≠∏È\c++_basic" -B"C:\Users\ehdqk\OneDrive\πŸ≈¡ »≠∏È\c++_basic\build""
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build chapter2/02-2/rebuild_cache: phony chapter2/02-2/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Users/ehdqk/OneDrive/πŸ≈¡ »≠∏È/c++_basic/chapter2/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target chapter02_3
+
+
+#############################################
+# Order-only phony target for chapter02_3
+
+build cmake_object_order_depends_target_chapter02_3: phony || chapter2/02-3/CMakeFiles/chapter02_3.dir
+
+build chapter2/02-3/CMakeFiles/chapter02_3.dir/02-3.cpp.obj: CXX_COMPILER__chapter02_3_unscanned_Debug C$:/Users/ehdqk/OneDrive/πŸ≈¡$ »≠∏È/c++_basic/chapter2/02-3/02-3.cpp || cmake_object_order_depends_target_chapter02_3
+  DEP_FILE = chapter2\02-3\CMakeFiles\chapter02_3.dir\02-3.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = chapter2\02-3\CMakeFiles\chapter02_3.dir
+  OBJECT_FILE_DIR = chapter2\02-3\CMakeFiles\chapter02_3.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target chapter02_3
+
+
+#############################################
+# Link the executable chapter2\02-3\chapter02_3.exe
+
+build chapter2/02-3/chapter02_3.exe: CXX_EXECUTABLE_LINKER__chapter02_3_Debug chapter2/02-3/CMakeFiles/chapter02_3.dir/02-3.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = chapter2\02-3\CMakeFiles\chapter02_3.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = chapter2\02-3\chapter02_3.exe
+  TARGET_IMPLIB = chapter2\02-3\libchapter02_3.dll.a
+  TARGET_PDB = chapter02_3.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build chapter2/02-3/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D "C:\Users\ehdqk\OneDrive\πŸ≈¡ »≠∏È\c++_basic\build\chapter2\02-3" && "C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build chapter2/02-3/edit_cache: phony chapter2/02-3/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build chapter2/02-3/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D "C:\Users\ehdqk\OneDrive\πŸ≈¡ »≠∏È\c++_basic\build\chapter2\02-3" && "C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\ehdqk\OneDrive\πŸ≈¡ »≠∏È\c++_basic" -B"C:\Users\ehdqk\OneDrive\πŸ≈¡ »≠∏È\c++_basic\build""
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build chapter2/02-3/rebuild_cache: phony chapter2/02-3/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Users/ehdqk/OneDrive/πŸ≈¡ »≠∏È/c++_basic/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for edit_cache
+
+build chapter3/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D "C:\Users\ehdqk\OneDrive\πŸ≈¡ »≠∏È\c++_basic\build\chapter3" && "C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build chapter3/edit_cache: phony chapter3/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build chapter3/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D "C:\Users\ehdqk\OneDrive\πŸ≈¡ »≠∏È\c++_basic\build\chapter3" && "C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\ehdqk\OneDrive\πŸ≈¡ »≠∏È\c++_basic" -B"C:\Users\ehdqk\OneDrive\πŸ≈¡ »≠∏È\c++_basic\build""
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build chapter3/rebuild_cache: phony chapter3/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Users/ehdqk/OneDrive/πŸ≈¡ »≠∏È/c++_basic/chapter3/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target chapter03_1
+
+
+#############################################
+# Order-only phony target for chapter03_1
+
+build cmake_object_order_depends_target_chapter03_1: phony || chapter3/03-1/CMakeFiles/chapter03_1.dir
+
+build chapter3/03-1/CMakeFiles/chapter03_1.dir/03-1.cpp.obj: CXX_COMPILER__chapter03_1_unscanned_Debug C$:/Users/ehdqk/OneDrive/πŸ≈¡$ »≠∏È/c++_basic/chapter3/03-1/03-1.cpp || cmake_object_order_depends_target_chapter03_1
+  DEP_FILE = chapter3\03-1\CMakeFiles\chapter03_1.dir\03-1.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = chapter3\03-1\CMakeFiles\chapter03_1.dir
+  OBJECT_FILE_DIR = chapter3\03-1\CMakeFiles\chapter03_1.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target chapter03_1
+
+
+#############################################
+# Link the executable chapter3\03-1\chapter03_1.exe
+
+build chapter3/03-1/chapter03_1.exe: CXX_EXECUTABLE_LINKER__chapter03_1_Debug chapter3/03-1/CMakeFiles/chapter03_1.dir/03-1.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = chapter3\03-1\CMakeFiles\chapter03_1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = chapter3\03-1\chapter03_1.exe
+  TARGET_IMPLIB = chapter3\03-1\libchapter03_1.dll.a
+  TARGET_PDB = chapter03_1.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build chapter3/03-1/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D "C:\Users\ehdqk\OneDrive\πŸ≈¡ »≠∏È\c++_basic\build\chapter3\03-1" && "C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build chapter3/03-1/edit_cache: phony chapter3/03-1/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build chapter3/03-1/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D "C:\Users\ehdqk\OneDrive\πŸ≈¡ »≠∏È\c++_basic\build\chapter3\03-1" && "C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\ehdqk\OneDrive\πŸ≈¡ »≠∏È\c++_basic" -B"C:\Users\ehdqk\OneDrive\πŸ≈¡ »≠∏È\c++_basic\build""
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build chapter3/03-1/rebuild_cache: phony chapter3/03-1/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Users/ehdqk/OneDrive/πŸ≈¡ »≠∏È/c++_basic/chapter3/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target chapter03_2
+
+
+#############################################
+# Order-only phony target for chapter03_2
+
+build cmake_object_order_depends_target_chapter03_2: phony || cmake_object_order_depends_target_calculator
+
+build chapter3/03-2/CMakeFiles/chapter03_2.dir/main.cpp.obj: CXX_COMPILER__chapter03_2_unscanned_Debug C$:/Users/ehdqk/OneDrive/πŸ≈¡$ »≠∏È/c++_basic/chapter3/03-2/main.cpp || cmake_object_order_depends_target_chapter03_2
+  DEP_FILE = chapter3\03-2\CMakeFiles\chapter03_2.dir\main.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = chapter3\03-2\CMakeFiles\chapter03_2.dir
+  OBJECT_FILE_DIR = chapter3\03-2\CMakeFiles\chapter03_2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target chapter03_2
+
+
+#############################################
+# Link the executable chapter3\03-2\chapter03_2.exe
+
+build chapter3/03-2/chapter03_2.exe: CXX_EXECUTABLE_LINKER__chapter03_2_Debug chapter3/03-2/CMakeFiles/chapter03_2.dir/main.cpp.obj | chapter3/03-2/libcalculator.a || chapter3/03-2/libcalculator.a
+  FLAGS = -g
+  LINK_LIBRARIES = chapter3/03-2/libcalculator.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = chapter3\03-2\CMakeFiles\chapter03_2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = chapter3\03-2\chapter03_2.exe
+  TARGET_IMPLIB = chapter3\03-2\libchapter03_2.dll.a
+  TARGET_PDB = chapter03_2.exe.dbg
+
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target calculator
+
+
+#############################################
+# Order-only phony target for calculator
+
+build cmake_object_order_depends_target_calculator: phony || chapter3/03-2/CMakeFiles/calculator.dir
+
+build chapter3/03-2/CMakeFiles/calculator.dir/03-2.cpp.obj: CXX_COMPILER__calculator_unscanned_Debug C$:/Users/ehdqk/OneDrive/πŸ≈¡$ »≠∏È/c++_basic/chapter3/03-2/03-2.cpp || cmake_object_order_depends_target_calculator
+  DEP_FILE = chapter3\03-2\CMakeFiles\calculator.dir\03-2.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = chapter3\03-2\CMakeFiles\calculator.dir
+  OBJECT_FILE_DIR = chapter3\03-2\CMakeFiles\calculator.dir
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target calculator
+
+
+#############################################
+# Link the static library chapter3\03-2\libcalculator.a
+
+build chapter3/03-2/libcalculator.a: CXX_STATIC_LIBRARY_LINKER__calculator_Debug chapter3/03-2/CMakeFiles/calculator.dir/03-2.cpp.obj
+  LANGUAGE_COMPILE_FLAGS = -g
+  OBJECT_DIR = chapter3\03-2\CMakeFiles\calculator.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = chapter3\03-2\libcalculator.a
+  TARGET_PDB = calculator.a.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build chapter3/03-2/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D "C:\Users\ehdqk\OneDrive\πŸ≈¡ »≠∏È\c++_basic\build\chapter3\03-2" && "C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build chapter3/03-2/edit_cache: phony chapter3/03-2/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build chapter3/03-2/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D "C:\Users\ehdqk\OneDrive\πŸ≈¡ »≠∏È\c++_basic\build\chapter3\03-2" && "C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\ehdqk\OneDrive\πŸ≈¡ »≠∏È\c++_basic" -B"C:\Users\ehdqk\OneDrive\πŸ≈¡ »≠∏È\c++_basic\build""
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build chapter3/03-2/rebuild_cache: phony chapter3/03-2/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Users/ehdqk/OneDrive/πŸ≈¡ »≠∏È/c++_basic/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for edit_cache
+
+build chapter4/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D "C:\Users\ehdqk\OneDrive\πŸ≈¡ »≠∏È\c++_basic\build\chapter4" && "C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build chapter4/edit_cache: phony chapter4/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build chapter4/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D "C:\Users\ehdqk\OneDrive\πŸ≈¡ »≠∏È\c++_basic\build\chapter4" && "C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\ehdqk\OneDrive\πŸ≈¡ »≠∏È\c++_basic" -B"C:\Users\ehdqk\OneDrive\πŸ≈¡ »≠∏È\c++_basic\build""
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build chapter4/rebuild_cache: phony chapter4/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Users/ehdqk/OneDrive/πŸ≈¡ »≠∏È/c++_basic/chapter4/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target chapter04_1
+
+
+#############################################
+# Order-only phony target for chapter04_1
+
+build cmake_object_order_depends_target_chapter04_1: phony || chapter4/04-1/CMakeFiles/chapter04_1.dir
+
+build chapter4/04-1/CMakeFiles/chapter04_1.dir/04-1.cpp.obj: CXX_COMPILER__chapter04_1_unscanned_Debug C$:/Users/ehdqk/OneDrive/πŸ≈¡$ »≠∏È/c++_basic/chapter4/04-1/04-1.cpp || cmake_object_order_depends_target_chapter04_1
+  DEP_FILE = chapter4\04-1\CMakeFiles\chapter04_1.dir\04-1.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = chapter4\04-1\CMakeFiles\chapter04_1.dir
+  OBJECT_FILE_DIR = chapter4\04-1\CMakeFiles\chapter04_1.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target chapter04_1
+
+
+#############################################
+# Link the executable chapter4\04-1\chapter04_1.exe
+
+build chapter4/04-1/chapter04_1.exe: CXX_EXECUTABLE_LINKER__chapter04_1_Debug chapter4/04-1/CMakeFiles/chapter04_1.dir/04-1.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = chapter4\04-1\CMakeFiles\chapter04_1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = chapter4\04-1\chapter04_1.exe
+  TARGET_IMPLIB = chapter4\04-1\libchapter04_1.dll.a
+  TARGET_PDB = chapter04_1.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build chapter4/04-1/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D "C:\Users\ehdqk\OneDrive\πŸ≈¡ »≠∏È\c++_basic\build\chapter4\04-1" && "C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build chapter4/04-1/edit_cache: phony chapter4/04-1/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build chapter4/04-1/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D "C:\Users\ehdqk\OneDrive\πŸ≈¡ »≠∏È\c++_basic\build\chapter4\04-1" && "C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\ehdqk\OneDrive\πŸ≈¡ »≠∏È\c++_basic" -B"C:\Users\ehdqk\OneDrive\πŸ≈¡ »≠∏È\c++_basic\build""
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build chapter4/04-1/rebuild_cache: phony chapter4/04-1/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Users/ehdqk/OneDrive/πŸ≈¡ »≠∏È/c++_basic/chapter4/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target chapter04_2
+
+
+#############################################
+# Order-only phony target for chapter04_2
+
+build cmake_object_order_depends_target_chapter04_2: phony || chapter4/04-2/CMakeFiles/chapter04_2.dir
+
+build chapter4/04-2/CMakeFiles/chapter04_2.dir/04-2.cpp.obj: CXX_COMPILER__chapter04_2_unscanned_Debug C$:/Users/ehdqk/OneDrive/πŸ≈¡$ »≠∏È/c++_basic/chapter4/04-2/04-2.cpp || cmake_object_order_depends_target_chapter04_2
+  DEP_FILE = chapter4\04-2\CMakeFiles\chapter04_2.dir\04-2.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = chapter4\04-2\CMakeFiles\chapter04_2.dir
+  OBJECT_FILE_DIR = chapter4\04-2\CMakeFiles\chapter04_2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target chapter04_2
+
+
+#############################################
+# Link the executable chapter4\04-2\chapter04_2.exe
+
+build chapter4/04-2/chapter04_2.exe: CXX_EXECUTABLE_LINKER__chapter04_2_Debug chapter4/04-2/CMakeFiles/chapter04_2.dir/04-2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = chapter4\04-2\CMakeFiles\chapter04_2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = chapter4\04-2\chapter04_2.exe
+  TARGET_IMPLIB = chapter4\04-2\libchapter04_2.dll.a
+  TARGET_PDB = chapter04_2.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build chapter4/04-2/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D "C:\Users\ehdqk\OneDrive\πŸ≈¡ »≠∏È\c++_basic\build\chapter4\04-2" && "C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build chapter4/04-2/edit_cache: phony chapter4/04-2/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build chapter4/04-2/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D "C:\Users\ehdqk\OneDrive\πŸ≈¡ »≠∏È\c++_basic\build\chapter4\04-2" && "C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\ehdqk\OneDrive\πŸ≈¡ »≠∏È\c++_basic" -B"C:\Users\ehdqk\OneDrive\πŸ≈¡ »≠∏È\c++_basic\build""
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build chapter4/04-2/rebuild_cache: phony chapter4/04-2/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
 # Target aliases.
 
-build chapter02_1: phony chapter2/02-1/chapter02_1.exe
+build 02-1.: phony chapter2/02-1/02-1..exe
 
-build chapter02_1.exe: phony chapter2/02-1/chapter02_1.exe
+build 02-1..exe: phony chapter2/02-1/02-1..exe
 
-build chapter02_3: phony chapter2/02-1/chapter02_3.exe
+build 02_1: phony chapter2/02-1/02_1.exe
 
-build chapter02_3.exe: phony chapter2/02-1/chapter02_3.exe
+build 02_1.exe: phony chapter2/02-1/02_1.exe
+
+build 02_2: phony chapter2/02-2/02_2.exe
+
+build 02_2.exe: phony chapter2/02-2/02_2.exe
+
+build Namesp2: phony chapter1/libNamesp2.a
+
+build calculator: phony chapter3/03-2/libcalculator.a
+
+build chapter02_3: phony chapter2/02-3/chapter02_3.exe
+
+build chapter02_3.exe: phony chapter2/02-3/chapter02_3.exe
+
+build chapter03_1: phony chapter3/03-1/chapter03_1.exe
+
+build chapter03_1.exe: phony chapter3/03-1/chapter03_1.exe
+
+build chapter03_2: phony chapter3/03-2/chapter03_2.exe
+
+build chapter03_2.exe: phony chapter3/03-2/chapter03_2.exe
+
+build chapter04_1: phony chapter4/04-1/chapter04_1.exe
+
+build chapter04_1.exe: phony chapter4/04-1/chapter04_1.exe
+
+build chapter04_2: phony chapter4/04-2/chapter04_2.exe
+
+build chapter04_2.exe: phony chapter4/04-2/chapter04_2.exe
+
+build chapter10: phony chapter1/chapter10.exe
+
+build chapter10.exe: phony chapter1/chapter10.exe
+
+build libNamesp2.a: phony chapter1/libNamesp2.a
+
+build libcalculator.a: phony chapter3/03-2/libcalculator.a
 
 # =============================================================================
 # Folder targets.
@@ -204,21 +785,84 @@ build chapter02_3.exe: phony chapter2/02-1/chapter02_3.exe
 #############################################
 # Folder: C:/Users/ehdqk/OneDrive/πŸ≈¡ »≠∏È/c++_basic/build
 
-build all: phony chapter2/all
+build all: phony chapter1/all chapter2/all chapter3/all chapter4/all
+
+# =============================================================================
+
+#############################################
+# Folder: C:/Users/ehdqk/OneDrive/πŸ≈¡ »≠∏È/c++_basic/build/chapter1
+
+build chapter1/all: phony chapter1/chapter10.exe chapter1/libNamesp2.a
 
 # =============================================================================
 
 #############################################
 # Folder: C:/Users/ehdqk/OneDrive/πŸ≈¡ »≠∏È/c++_basic/build/chapter2
 
-build chapter2/all: phony chapter2/02-1/all
+build chapter2/all: phony chapter2/02-1/all chapter2/02-2/all chapter2/02-3/all
 
 # =============================================================================
 
 #############################################
 # Folder: C:/Users/ehdqk/OneDrive/πŸ≈¡ »≠∏È/c++_basic/build/chapter2/02-1
 
-build chapter2/02-1/all: phony chapter2/02-1/chapter02_1.exe chapter2/02-1/chapter02_3.exe
+build chapter2/02-1/all: phony chapter2/02-1/02_1.exe chapter2/02-1/02-1..exe
+
+# =============================================================================
+
+#############################################
+# Folder: C:/Users/ehdqk/OneDrive/πŸ≈¡ »≠∏È/c++_basic/build/chapter2/02-2
+
+build chapter2/02-2/all: phony chapter2/02-2/02_2.exe
+
+# =============================================================================
+
+#############################################
+# Folder: C:/Users/ehdqk/OneDrive/πŸ≈¡ »≠∏È/c++_basic/build/chapter2/02-3
+
+build chapter2/02-3/all: phony chapter2/02-3/chapter02_3.exe
+
+# =============================================================================
+
+#############################################
+# Folder: C:/Users/ehdqk/OneDrive/πŸ≈¡ »≠∏È/c++_basic/build/chapter3
+
+build chapter3/all: phony chapter3/03-1/all chapter3/03-2/all
+
+# =============================================================================
+
+#############################################
+# Folder: C:/Users/ehdqk/OneDrive/πŸ≈¡ »≠∏È/c++_basic/build/chapter3/03-1
+
+build chapter3/03-1/all: phony chapter3/03-1/chapter03_1.exe
+
+# =============================================================================
+
+#############################################
+# Folder: C:/Users/ehdqk/OneDrive/πŸ≈¡ »≠∏È/c++_basic/build/chapter3/03-2
+
+build chapter3/03-2/all: phony chapter3/03-2/chapter03_2.exe chapter3/03-2/libcalculator.a
+
+# =============================================================================
+
+#############################################
+# Folder: C:/Users/ehdqk/OneDrive/πŸ≈¡ »≠∏È/c++_basic/build/chapter4
+
+build chapter4/all: phony chapter4/04-1/all chapter4/04-2/all
+
+# =============================================================================
+
+#############################################
+# Folder: C:/Users/ehdqk/OneDrive/πŸ≈¡ »≠∏È/c++_basic/build/chapter4/04-1
+
+build chapter4/04-1/all: phony chapter4/04-1/chapter04_1.exe
+
+# =============================================================================
+
+#############################################
+# Folder: C:/Users/ehdqk/OneDrive/πŸ≈¡ »≠∏È/c++_basic/build/chapter4/04-2
+
+build chapter4/04-2/all: phony chapter4/04-2/chapter04_2.exe
 
 # =============================================================================
 # Built-in targets
@@ -227,14 +871,14 @@ build chapter2/02-1/all: phony chapter2/02-1/chapter02_1.exe chapter2/02-1/chapt
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake C$:/Users/ehdqk/OneDrive/πŸ≈¡$ »≠∏È/c++_basic/CMakeLists.txt C$:/Users/ehdqk/OneDrive/πŸ≈¡$ »≠∏È/c++_basic/chapter2/02-1/CMakeLists.txt C$:/Users/ehdqk/OneDrive/πŸ≈¡$ »≠∏È/c++_basic/chapter2/CMakeLists.txt CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeCXXCompiler.cmake CMakeFiles/3.26.4/CMakeRCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake C$:/Users/ehdqk/OneDrive/πŸ≈¡$ »≠∏È/c++_basic/CMakeLists.txt C$:/Users/ehdqk/OneDrive/πŸ≈¡$ »≠∏È/c++_basic/chapter1/CMakeLists.txt C$:/Users/ehdqk/OneDrive/πŸ≈¡$ »≠∏È/c++_basic/chapter2/02-1/CMakeLists.txt C$:/Users/ehdqk/OneDrive/πŸ≈¡$ »≠∏È/c++_basic/chapter2/02-2/CMakeLists.txt C$:/Users/ehdqk/OneDrive/πŸ≈¡$ »≠∏È/c++_basic/chapter2/02-3/CMakeLists.txt C$:/Users/ehdqk/OneDrive/πŸ≈¡$ »≠∏È/c++_basic/chapter2/CMakeLists.txt C$:/Users/ehdqk/OneDrive/πŸ≈¡$ »≠∏È/c++_basic/chapter3/03-1/CMakeLists.txt C$:/Users/ehdqk/OneDrive/πŸ≈¡$ »≠∏È/c++_basic/chapter3/03-2/CMakeLists.txt C$:/Users/ehdqk/OneDrive/πŸ≈¡$ »≠∏È/c++_basic/chapter3/CMakeLists.txt C$:/Users/ehdqk/OneDrive/πŸ≈¡$ »≠∏È/c++_basic/chapter4/04-1/CMakeLists.txt C$:/Users/ehdqk/OneDrive/πŸ≈¡$ »≠∏È/c++_basic/chapter4/04-2/CMakeLists.txt C$:/Users/ehdqk/OneDrive/πŸ≈¡$ »≠∏È/c++_basic/chapter4/CMakeLists.txt CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeCXXCompiler.cmake CMakeFiles/3.26.4/CMakeRCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake C$:/Users/ehdqk/OneDrive/πŸ≈¡$ »≠∏È/c++_basic/CMakeLists.txt C$:/Users/ehdqk/OneDrive/πŸ≈¡$ »≠∏È/c++_basic/chapter2/02-1/CMakeLists.txt C$:/Users/ehdqk/OneDrive/πŸ≈¡$ »≠∏È/c++_basic/chapter2/CMakeLists.txt CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeCXXCompiler.cmake CMakeFiles/3.26.4/CMakeRCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake: phony
+build C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake C$:/Users/ehdqk/OneDrive/πŸ≈¡$ »≠∏È/c++_basic/CMakeLists.txt C$:/Users/ehdqk/OneDrive/πŸ≈¡$ »≠∏È/c++_basic/chapter1/CMakeLists.txt C$:/Users/ehdqk/OneDrive/πŸ≈¡$ »≠∏È/c++_basic/chapter2/02-1/CMakeLists.txt C$:/Users/ehdqk/OneDrive/πŸ≈¡$ »≠∏È/c++_basic/chapter2/02-2/CMakeLists.txt C$:/Users/ehdqk/OneDrive/πŸ≈¡$ »≠∏È/c++_basic/chapter2/02-3/CMakeLists.txt C$:/Users/ehdqk/OneDrive/πŸ≈¡$ »≠∏È/c++_basic/chapter2/CMakeLists.txt C$:/Users/ehdqk/OneDrive/πŸ≈¡$ »≠∏È/c++_basic/chapter3/03-1/CMakeLists.txt C$:/Users/ehdqk/OneDrive/πŸ≈¡$ »≠∏È/c++_basic/chapter3/03-2/CMakeLists.txt C$:/Users/ehdqk/OneDrive/πŸ≈¡$ »≠∏È/c++_basic/chapter3/CMakeLists.txt C$:/Users/ehdqk/OneDrive/πŸ≈¡$ »≠∏È/c++_basic/chapter4/04-1/CMakeLists.txt C$:/Users/ehdqk/OneDrive/πŸ≈¡$ »≠∏È/c++_basic/chapter4/04-2/CMakeLists.txt C$:/Users/ehdqk/OneDrive/πŸ≈¡$ »≠∏È/c++_basic/chapter4/CMakeLists.txt CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeCXXCompiler.cmake CMakeFiles/3.26.4/CMakeRCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake: phony
 
 
 #############################################

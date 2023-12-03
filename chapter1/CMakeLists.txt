@@ -1,8 +1,8 @@
 cmake_minimum_required(VERSION 3.1)
 
-project(chapter1)
+project(chapter10)
 
-add_executable(chapter1 main.cpp)
+add_executable(chapter10 main.cpp)
 
 add_library(Namesp2 Namesp2.cpp)
 

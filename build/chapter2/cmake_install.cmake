@@ -40,6 +40,8 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("C:/Users/ehdqk/OneDrive/바탕 화면/c++_basic/build/chapter2/02-1/cmake_install.cmake")
+  include("C:/Users/ehdqk/OneDrive/바탕 화면/c++_basic/build/chapter2/02-2/cmake_install.cmake")
+  include("C:/Users/ehdqk/OneDrive/바탕 화면/c++_basic/build/chapter2/02-3/cmake_install.cmake")
 
 endif()
 
