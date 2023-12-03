@@ -1,0 +1,18 @@
+//
+// Created by ehdqk on 2023-12-03.
+//
+#include "03-2.hpp"
+#include <iostream>
+
+int main(void)
+{
+    Calculator cal;
+    cal.Init();
+    std::cout<<"3.2 + 2.4 = "<<cal.Add(3.2,2.4)<<std::endl;
+    std::cout<<"3.5 / 1.7 = "<<cal.Div(3.5,1.7)<<std::endl;
+    std::cout<<"2.2 - 1.5 = "<<cal.Min(2.2,1.5)<<std::endl;
+    std::cout<<"4.9 / 1.2 = "<<cal.Div(4.9,1.2)<<std::endl;
+    cal.ShowOpCount();
+    return 0;
+
+}
